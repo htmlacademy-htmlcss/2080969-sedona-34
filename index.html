@@ -6,7 +6,9 @@
   </head>
   <body>
     <header class="page-header">
-      <img src="#" alt="Тут будет логотип">
+      <a class="logo-link" href="https://htmlacademy.ru/">
+        <img src="#" alt="Тут будет логотип"> 
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -34,44 +36,80 @@
     </header>
 
     <main class="main-index">
-      <section class="upper-block">
-      <h1 class="visually-hidden">Седона</h1>
-      <img class="upper-block-img-welcom" src="#" alt="тут будет welcom">
-      <img class="upper-block to the gorgeous" src="#" alt="тут будет надпись to the gorgeous">
-      <img class="upper-block sedona-and-signature" alt="Тут будет текст большими буква Седона и подпись ниже">
-    </section>
-    <section class="block-sedona">
+      <div class="hero-block">
+        <section class="upper-block">
+          <h1 class="visually-hidden">Седона</h1>
+            <img class="upper-block-img-welcom" src="#" alt="тут будет welcom">
+            <img class="upper-block to the gorgeous" src="#" alt="тут будет надпись to the gorgeous">
+            <img class="upper-block sedona-and-signature" alt="Тут будет текст большими буква Седона и подпись ниже">
+        </section>
+      <section class="block-sedona">
       <h2 class="description-of-sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="description-index">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-    </section>
+       </section>
+      </div>
     <section class="reasons">
-      <ul class="the-first-list">
-        <li class="list-item-imag">
-          <h3 class="heading">НАСТОЯЩИЙ<br>ГОРОДОК</h3>
-          <p>— №1 —</p>
-          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+      <ol class="the-first-list">
+        <li class="city">
+          <div class="citi-block">
+          <h3 class="citi-header">Настоящий городок</h3>  
+          <span class="reasons-namber">— №1 —</span>
+          <p class="city-info">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
+          <img class="image-city" src="#" alt="Изображение городка с флагами на фоне гор">
         </li>
-        <li class="list-imag">
-          <img class="imag-first-list" src="#" alt="Картинка какого то здания на фоне гор">
+          <ul class="city-rest">
+            <li class="city-rest-home">
+              <img class="city-rest-img" src="#" alt="маленький синий домик">
+              <span class="header-city-rest">Жильё</span>
+              <p class="text-city-rest">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+            <li class="city-rest-home-white">
+              <img class="city-rest-img" src="#" alt="маленький синий бутерброд">
+              <span class="header-city-rest">Еда</span>
+              <p class="text-city-rest">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="city-rest-home">
+              <img class="city-rest-img" src="#" alt="маленький синий подарок">
+              <span class="header-city-rest">Сувениры</span>
+              <p class="text-city-rest">Не только китайского, но и настоящего местного производства!</p>
+            </li>
+          </ul>
+         <li class="bridge">
+           <img class="bridge-img" src="#" alt="Красивый каменный мост как из мультика Король Лев">
+           <div class="bridge-block">
+            <h3 class="bridge-header">Там есть мост дьявола</h3>  
+            <span class="reasons-namber">— №2 —</span>
+            <p class="bridge-info">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+           </div>
+         </li>
+         <li class="city-rest-bridge">
+           <div class="city-rest-bridge-block">
+             <h3 class="citi-header">Небольшая площадь</h3>
+             <span class="reasons-namber">— №3 —</span>
+             <p class="city-info">Все достопримечательности находятся очень близко</p>
+           </div>
+         </li>
+         <li class="city-rest-bridge-gray">
+          <div class="city-rest-bridge-block">
+            <h3 class="citi-header">Красивая дорога</h3>
+            <span class="reasons-namber">— №4 —</span>
+            <p class="city-info">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
         </li>
-      </ul>
-      <ul class="the-second-list">
-        <li class="list-home">
-          <img class="home-img" src="#" alt="Картинка дома декоративная">
-          <h3 class="heading-home">ЖИЛЬЁ</h3>
-          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        <li class="city-rest-bridge">
+          <div class="city-rest-bridge-block">
+            <h3 class="citi-header">Мало туристов</h3>
+            <span class="reasons-namber">— №5 —</span>
+            <p class="city-info">Большинство едет в Гранд Каньон и толпится там</p>
+          </div>
         </li>
-        <li class="list-meal">
-          <img class="meal-img" src="#" alt="Картинка гамбургера декоративная">
-          <h3 class="heading-meal">ЕДА</h3>
-          <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="list-souvenirs">
-          <img class="souvenirs-img" src="#" alt="Картинка подарка декоративная">
-          <h3 class="heading-souvenirs">СУВЕНИРЫ</h3>
-          <p>Не только китайского, но и настоящего местного производства!</p>
-        </li>
-      </ul>
+      </ol>
+    </section>
+    <section class="hooked">
+      <h3 class="header-hooked">Заинтересовались?</h3>
+      <p class="hooked-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <a class="search-hotel" href="#"><scan class="shrift">ПОИСК ГОСТИНИЦЫ</scan> В седоне</a>
     </section>
     </main>
   </body>
